@@ -86,5 +86,12 @@ public class App {
         float valor = 3.6f;
         int redondeado = Math.round(valor);
 
+
+        CuentaBancaria cuenta = new CuentaBancaria(500);
+        cuenta.depositar(200);
+        System.out.println(cuenta.consultarSaldo());
+
+
+
     }
 }
