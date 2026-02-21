@@ -1,0 +1,69 @@
+🧠 Analogía rápida (vida real)
+
+Imagina una casa 🏠:
+
+Modificador	Vida real
+
+public	La puerta principal: cualquiera puede entrar
+protected	Habitaciones familiares
+private	Caja fuerte personal
+
+
+1️⃣ private – Lo más protegido
+
+🔒 Solo accesible dentro de la misma clase
+
+📌 Ejemplo real: Cuenta bancaria
+
+El saldo no debe modificarse desde afuera.
+
+
+2️⃣ public – Acceso total
+
+🔓 Se puede usar desde cualquier clase
+
+✔️ ¿Qué debe ser public?
+
+Métodos principales
+
+Constructores
+
+Funciones que el usuario necesita
+
+
+3️⃣ protected – Acceso controlado (herencia)
+
+🛡️ Accesible desde:
+
+La misma clase
+
+El mismo paquete
+
+Clases hijas (herencia)
+
+
+
+| Modificador | Misma clase | Mismo paquete | Subclase | Cualquier clase |
+| ----------- | ----------- | ------------- | -------- | --------------- |
+| `public`    | ✅           | ✅             | ✅        | ✅               |
+| `protected` | ✅           | ✅             | ✅        | ❌               |
+| `private`   | ✅           | ❌             | ❌        | ❌               |
+
+
+
+⚠️ Errores comunes (buenos para examen)
+
+Hacer todos los atributos public
+
+Pensar que protected es igual a private
+
+Acceder directamente a atributos private
+
+
+
+
+🧑‍🏫 Recomendación didáctica
+
+1️⃣ Empieza con private en atributos
+2️⃣ Usa public para métodos
+3️⃣ Introduce protected cuando vean herencia
