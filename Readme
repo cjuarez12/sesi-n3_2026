@@ -58,12 +58,3 @@ Hacer todos los atributos public
 Pensar que protected es igual a private
 
 Acceder directamente a atributos private
-
-
-
-
-🧑‍🏫 Recomendación didáctica
-
-1️⃣ Empieza con private en atributos
-2️⃣ Usa public para métodos
-3️⃣ Introduce protected cuando vean herencia
