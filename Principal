@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Principal {
+
+    public static void main(String[] args) {
+
+        Scanner teclado = new Scanner(System.in);
+
+        // Creación dinámica del objeto
+        Estudiante est1 = new Estudiante();
+
+        System.out.println("Ingrese el nombre del estudiante:");
+        est1.setNombre(teclado.nextLine());
+
+        System.out.println("Ingrese la edad:");
+        est1.setEdad(teclado.nextInt());
+
+        System.out.println("Ingrese el promedio:");
+        est1.setPromedio(teclado.nextDouble());
+
+        System.out.println("\nDatos del estudiante");
+        System.out.println("Nombre: " + est1.getNombre());
+        System.out.println("Edad: " + est1.getEdad());
+        System.out.println("Promedio: " + est1.getPromedio());
+
+    }
+}
